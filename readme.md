@@ -17,6 +17,9 @@ assets/js/backbone.ui.template.js
 Contains a simple backbone view to get started
 
 assets/less/backbone.ui.template.less
+
 assets/css/backbone.ui.template.css
+
 The template was created using less. The style sheet has been compiled to a plain css file. 
+
 It's your choice if you want to continue developing in less or css.
