@@ -1,12 +1,12 @@
 (function() {
 	// Creates an object based in the HTML Element prototype
 	var element = Object.create(HTMLElement.prototype);
+	var view;
 
 	// Fires when an instance of the element is created
 	element.createdCallback = function() {
-
 		// instantiate view
-		var view = new Backbone.UI.[Component]();
+		view = new APP.UI.Component();
 
 	};
 
@@ -19,7 +19,7 @@
 	// Fires when an attribute was added, removed, or updated
 	element.attributeChangedCallback = function(attr, oldVal, newVal) {};
 
-	document.registerElement('ui-[component]', {
+	document.registerElement('ui-component', {
 		prototype: element
 	});
 }());

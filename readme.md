@@ -2,7 +2,7 @@
 
 A bare minimum custom element for [APP UI](http://github.com/app-ui) using [VanillaJS](http://vanilla-js.com/).
 
-This is merely a template, designed to make it easy to get started creating a new Backbone UI element.
+This is merely a template, designed to make it easy to get started creating a new APP UI element.
 
 
 ## Examples
@@ -64,4 +64,3 @@ The template was created using less. The style sheet has been compiled to a plai
 ## License
 
 Released under the [MIT License](http://makesites.org/licenses/MIT)
-
