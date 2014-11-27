@@ -1,10 +1,21 @@
 {
-  "name": "backbone.ui.litenav",
-  "version": "0.2.0",
-  "main": ["./assets/js/backbone.ui.litenav.js"],
-  "dependencies": { 
-	  "backbone" : "0.9.10", 
-	  "underscore" : "1.4.4", 
-	  "jquery" : "1.8.3"
-  }
+	"name": "app.ui.[component]",
+	"version": "0.0.0",
+	"description": "APP UI: [Component]",
+	"license": "MIT",
+	"main": "index.html",
+	"keywords": [
+			"web-components"
+	],
+	"ignore": [
+			"**/.*",
+			"node_modules",
+			"bower_components"
+	],
+	"dependencies": {
+		"webcomponentsjs": "*",
+		"backbone" : "*",
+		"underscore" : "*",
+		"jquery" : "*"
+	}
 }
