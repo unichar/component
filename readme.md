@@ -1,25 +1,67 @@
-# Backbone UI: _Template
+# APP UI: Component
 
-This is a simple Backbone UI template, designed to make it easy to get started creating a new Backbone UI element.
+A bare minimum custom element for [APP UI](http://github.com/app-ui) using [VanillaJS](http://vanilla-js.com/).
 
-Simply search and replace "template" and "Template" with your UI element name.
+This is merely a template, designed to make it easy to get started creating a new Backbone UI element.
 
-The template contains all the basic structure to get started creating a Backbone UI.
 
-Important files:
+## Examples
 
-examples/static.html
-Contains a bare bone HTML structure and instantiates the view:
+* [Click to view](./examples/index.html)
 
-	var view = new Backbone.UI.Template();
 
-assets/js/backbone.ui.template.js
-Contains a simple backbone view to get started
+## Install
 
-assets/less/backbone.ui.template.less
+Using bower:
+```
+bower install app.ui.component
+```
 
-assets/css/backbone.ui.template.css
+Import from github
+```
+git pull git://github.com/app-ui/component.git master
+```
 
-The template was created using less. The style sheet has been compiled to a plain css file. 
+Simply search and replace ```component``` and ```Component``` with your UI element name.
 
-It's your choice if you want to continue developing in less or css.
+The component contains all the basic structure to get started. The component. The stylesheet is created using Less and then been compiled to a plain CSS file. It's your choice if you want to continue developing in Less or CSS.
+
+
+
+## Usage
+
+
+1. Import Web Components' polyfill
+
+
+```html
+<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+```
+The template was created using less. The style sheet has been compiled to a plain css file.
+
+2. Import Custom Element:
+```html
+<link rel="import" href="bower_components/my-repo/src/my-element.html">
+```
+
+3. Start using it!
+
+```html
+<ui-component></ui-component>
+```
+
+
+## Options
+
+...
+
+
+## Events
+
+...
+
+
+## License
+
+Released under the [MIT License](http://makesites.org/licenses/MIT)
+
