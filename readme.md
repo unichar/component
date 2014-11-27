@@ -30,18 +30,15 @@ The component contains all the basic structure to get started. The component. Th
 
 ## Usage
 
-
 1. Import Web Components' polyfill
-
 
 ```html
 <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
 ```
-The template was created using less. The style sheet has been compiled to a plain css file.
 
 2. Import Custom Element:
 ```html
-<link rel="import" href="bower_components/my-repo/src/my-element.html">
+<link rel="import" href="bower_components/app.ui.component">
 ```
 
 3. Start using it!
