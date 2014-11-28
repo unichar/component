@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"main": "index.html",
 	"keywords": [
-			"web-components"
+			"app-ui", "web-components"
 	],
 	"ignore": [
 			"**/.*",
@@ -14,8 +14,6 @@
 	],
 	"dependencies": {
 		"webcomponentsjs": "*",
-		"backbone" : "*",
-		"underscore" : "*",
-		"jquery" : "*"
+		"app" : "*"
 	}
 }
