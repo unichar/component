@@ -26,7 +26,7 @@
 	// Fires when an attribute was added, removed, or updated
 	el.attributeChangedCallback = function(attr, oldVal, newVal) {};
 
-	el.registerElement('ui-component', {
+	document.registerElement('ui-component', {
 		prototype: el
 	});
 }());
