@@ -9,7 +9,7 @@
 		// gather options
 		var options = {};
 		// ...
-		options.el = el;
+		options.el = this;
 		// instantiate view
 		view = new APP.UI.Component( options );
 
