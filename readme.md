@@ -24,7 +24,7 @@ git pull git://github.com/app-ui/component.git master
 
 Simply search and replace ```component``` and ```Component``` with your UI element name.
 
-The component contains all the basic structure to get started. The component. The stylesheet is created using Less and then been compiled to a plain CSS file. It's your choice if you want to continue developing in Less or CSS.
+The component contains all the basic structure to get started. The stylesheet is created using Less and then been compiled to a plain CSS file. It's your choice if you want to continue developing in Less or CSS.
 
 
 
