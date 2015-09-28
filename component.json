@@ -1,16 +1,16 @@
 {
 	"name": "app.ui.component",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "APP UI: Component",
 	"license": "MIT",
-	"main": "index.html",
 	"keywords": [
-			"app-ui", "web-components"
+			"component", "app-ui", "ui", "web-components"
 	],
+	"main": "index.html",
 	"ignore": [
-			"**/.*",
-			"node_modules",
-			"bower_components"
+		"bower_components",
+		"components",
+		"node_modules"
 	],
 	"dependencies": {
 		"webcomponentsjs": "*",
