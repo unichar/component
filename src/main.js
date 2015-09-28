@@ -5,8 +5,13 @@
 	// Fires when an instance of the element is created
 	el.createdCallback = function() {
 
-		// gather options
-		var options = {};
+		// gather attributes
+		//...
+		// set options
+		var options = {
+			silentRender: true, // this is required to avoid an infinite loop (triggering createdCallback on .show() )
+			url: "../assets/html/app.ui.terminaltext.html"// use template html instead...
+		};
 		// ...
 		options.el = this;
 		// instantiate view
