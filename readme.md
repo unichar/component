@@ -48,7 +48,7 @@ The component contains all the basic structure to get started. The stylesheet is
 ```
 
 
-## Options
+## Attributes
 
 ...
 
@@ -58,6 +58,12 @@ The component contains all the basic structure to get started. The stylesheet is
 ...
 
 
-## License
+## Credits
+
+Initiated by Makis Tracend ( [@tracend](http://tracend.me) )
+
+Distributed through [Makesites.org](http://makesites.org)
+
+### License
 
 Released under the [MIT License](http://makesites.org/licenses/MIT)
