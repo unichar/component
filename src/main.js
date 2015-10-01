@@ -15,7 +15,7 @@
 		// ...
 		options.el = this;
 		// instantiate view
-		this.view = new APP.UI.Component( options );
+		this.view = new UniChar( options );
 
 	};
 
@@ -30,7 +30,7 @@
 	// Fires when an attribute was added, removed, or updated
 	el.attributeChangedCallback = function(attr, oldVal, newVal) {};
 
-	document.registerElement('ui-component', {
+	document.registerElement('uni-char', {
 		prototype: el
 	});
 }());
