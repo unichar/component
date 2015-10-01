@@ -33,12 +33,12 @@ The component contains all the basic structure to get started. The stylesheet is
 1. Import Web Components' polyfill
 
 ```html
-<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+<script src="components/webcomponentsjs/webcomponents.min.js"></script>
 ```
 
 2. Import Custom Element:
 ```html
-<link rel="import" href="bower_components/app.ui.component">
+<link rel="import" href="components/app.ui.component">
 ```
 
 3. Start using it!
