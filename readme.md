@@ -1,8 +1,6 @@
-# APP UI: Component
+# UniChar: Component
 
-A bare minimum custom element for [APP UI](http://github.com/app-ui) using [VanillaJS](http://vanilla-js.com/).
-
-This is merely a template, designed to make it easy to get started creating a new APP UI element.
+A custom element to review and interact with a custom element
 
 
 ## Examples
@@ -14,18 +12,14 @@ This is merely a template, designed to make it easy to get started creating a ne
 
 Using bower:
 ```
-bower install app.ui.component
+bower install uni-char
 ```
 
 Import from github
 ```
-git pull git://github.com/app-ui/component.git master
+git pull git://github.com/unichar/component.git master
 ```
-
-Simply search and replace ```component``` and ```Component``` with your UI element name.
-
-The component contains all the basic structure to get started. The stylesheet is created using Less and then been compiled to a plain CSS file. It's your choice if you want to continue developing in Less or CSS.
-
+...
 
 
 ## Usage
@@ -38,13 +32,13 @@ The component contains all the basic structure to get started. The stylesheet is
 
 2. Import Custom Element:
 ```html
-<link rel="import" href="components/app.ui.component">
+<link rel="import" href="components/uni-char">
 ```
 
 3. Start using it!
 
 ```html
-<ui-component></ui-component>
+<uni-char data-id=""></uni-char>
 ```
 
 
@@ -62,7 +56,11 @@ The component contains all the basic structure to get started. The stylesheet is
 
 Initiated by Makis Tracend ( [@tracend](http://tracend.me) )
 
-Distributed through [Makesites.org](http://makesites.org)
+Part of [UniChar](http://unichar.net/) by [K&D Interactive](http://kdi.co/)
+
+### Trivia
+
+...
 
 ### License
 
